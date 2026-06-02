@@ -7,7 +7,7 @@ import base64
 
 # ── page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="CV Lab · CIFAR-10 Vision System",
+    page_title=" CIFAR-10 Vision System",
     page_icon="🔬",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -208,10 +208,8 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 # ── hero ──────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="hero">
-  <div class="hero-title">Computer Vision Lab</div>
+  <div class="hero-title">Computer Vision </div>
   <div class="hero-sub">CIFAR-10 · Neural Classification · Morphological Analysis · Image Fusion</div>
-  <span class="badge">Course: Computer Vision</span>
-  <span class="badge">Dept. Creative Technology</span>
   <span class="badge">CIFAR-10 Dataset</span>
 </div>
 """, unsafe_allow_html=True)
@@ -240,11 +238,11 @@ with st.sidebar:
 
 # ── tab layout ────────────────────────────────────────────────────────────────
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "🧠  Classifier",
-    "🔬  Morphological Ops",
-    "🎯  Hit-or-Miss",
-    "🌀  Image Fusion",
-    "📊  Model Info",
+    "  Classifier",
+    "  Morphological Ops",
+    "  Hit-or-Miss",
+    "  Image Fusion",
+    "  Model Info",
 ])
 
 # ═══════════════════════════════════════════════════════════════════════════════
