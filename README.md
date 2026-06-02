@@ -1,7 +1,4 @@
-# 🔬 CV Lab — CIFAR-10 Vision System
-**Course:** Computer Vision | **Dept.:** Creative Technology  
-**Lab Instructor:** Sania Akhtar
-
+# CV  — CIFAR-10 Vision System
 ---
 
 ## What This Project Does
@@ -10,10 +7,10 @@ A full Streamlit web app covering your Computer Vision lab objectives:
 
 | Module | Lab Objective |
 |--------|--------------|
-| 🧠 Image Classifier | CNN trained on CIFAR-10 with morphological preprocessing |
-| 🔬 Morphological Ops | Erosion, Dilation, Opening, Closing, Gradient (Lab Tasks 5 & 6) |
-| 🎯 Hit-or-Miss | Pattern detection with custom B1/B2 structuring elements (Lab Task 1) |
-| 🌀 Image Fusion | Pixel-level & Laplacian Pyramid fusion (Lab Task 3) |
+| Image Classifier | CNN trained on CIFAR-10 with morphological preprocessing |
+|  Morphological Ops | Erosion, Dilation, Opening, Closing, Gradient (Lab Tasks 5 & 6) |
+|  Hit-or-Miss | Pattern detection with custom B1/B2 structuring elements (Lab Task 1) |
+|  Image Fusion | Pixel-level & Laplacian Pyramid fusion (Lab Task 3) |
 
 ---
 
@@ -138,11 +135,11 @@ print(f"\n🔬 App live at: {public_url}")
 
 ## Lab Concepts Covered
 
-- ✅ **Erosion** — removes noise, shrinks bright regions  
-- ✅ **Dilation** — fills gaps, expands bright regions  
-- ✅ **Opening** — erosion then dilation (removes small objects)  
-- ✅ **Closing** — dilation then erosion (fills small holes)  
-- ✅ **Morphological Gradient** = Dilation − Erosion (edge detection)  
-- ✅ **Hit-or-Miss Transform** = Erode(A, B1) ∩ Erode(Aᶜ, B2)  
-- ✅ **Image Fusion** — pixel-level & Laplacian pyramid feature-level  
-- ✅ **CNN Classification** with preprocessing pipeline  
+-  **Erosion** — removes noise, shrinks bright regions  
+-  **Dilation** — fills gaps, expands bright regions  
+-  **Opening** — erosion then dilation (removes small objects)  
+-  **Closing** — dilation then erosion (fills small holes)  
+-  **Morphological Gradient** = Dilation − Erosion (edge detection)  
+-  **Hit-or-Miss Transform** = Erode(A, B1) ∩ Erode(Aᶜ, B2)  
+-  **Image Fusion** — pixel-level & Laplacian pyramid feature-level  
+-  **CNN Classification** with preprocessing pipeline  
